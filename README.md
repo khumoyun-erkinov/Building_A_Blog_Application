@@ -1,2 +1,2 @@
-# Building_A_Blog_Application
-Building a blog applications project with django
+# Building_blog_a_applications
+Building a Blog applications 
