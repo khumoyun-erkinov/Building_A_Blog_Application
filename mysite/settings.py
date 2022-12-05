@@ -26,6 +26,17 @@ SECRET_KEY = 'django-insecure-6-mbujdl(b(g#j01+n2(hdp95u++cihmb=-u=bt0c9tk(2f=+o
 DEBUG = True
 
 ALLOWED_HOSTS = []
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'erkinovkhumoyun@gmail.com'
+EMAIL_HOST_PASSWORD = 'pfmazizxmvrblqnk'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+
+# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+
+
+
 
 
 # Application definition
