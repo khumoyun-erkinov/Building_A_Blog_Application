@@ -155,7 +155,7 @@ def post_search(request):
         if form.is_valid():
             query = form.cleaned_data['query']
             results = Post.published.annotate(
-                search = SearchForm('title','body'),
+                search=SearchVector('title','body'),
             ).filter(search=query)
     return render(request,
                   'blog/post/search.html',
@@ -166,6 +166,6 @@ def post_search(request):
 
 
 
-#137-page
+
 
 
